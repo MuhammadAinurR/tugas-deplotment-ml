@@ -13,3 +13,4 @@ tensorflow-cpu
 tqdm
 urllib3
 utils
+h5py
