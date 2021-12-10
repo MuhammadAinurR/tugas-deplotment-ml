@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request, url_for
 
-from keras.preprocessing.image import load_img, img_to_array
-from keras.applications.vgg16 import preprocess_input, decode_predictions, VGG16
+from tensorflow.keras.preprocessing.image import load_img, img_to_array
+from tensorflow.keras.applications.vgg16 import preprocess_input, decode_predictions, VGG16
 
 app = Flask(__name__)
 model = VGG16()
