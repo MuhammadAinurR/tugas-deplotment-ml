@@ -1,4 +1,3 @@
-opencv-python-headless
 keras
-numpy
 tensorflow
+flask
