@@ -6,7 +6,7 @@ Keras
 numpy
 opencv-python
 pandas
-request
+Pillow
 scipy
 tensorboard
 tensorflow
