@@ -9,7 +9,7 @@ from tensorflow.keras.applications.vgg16 import preprocess_input
 import os
 
 app = Flask(__name__)
-model = load_model(os.path.join("model.h5"))
+model = load_model(os.path.join("/app/model.h5"))
 with open("labels.txt", "rb") as fp:
     labels = pickle.load(fp)
 labels[1]
