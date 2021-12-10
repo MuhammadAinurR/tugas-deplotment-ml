@@ -9,7 +9,7 @@ pandas
 Pillow
 scipy
 tensorboard
-tensorflow
+tensorflow-cpu
 tqdm
 urllib3
 utils
