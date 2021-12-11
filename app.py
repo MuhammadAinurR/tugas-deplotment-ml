@@ -6,19 +6,13 @@ from tensorflow.keras.models import load_model
 import pickle
 import numpy as np
 from tensorflow.keras.applications.vgg16 import preprocess_input
-import os
 
 app = Flask(__name__)
-global model
-model = load_model(os.path.join("model.h5"))
-with open("labels.txt", "rb") as fp:
-    labels = pickle.load(fp)
-labels[1]
+model = load_model('model.h5')
+
 
 import pickle
-with open("labels.txt", "rb") as fp:
-    labels = pickle.load(fp)
-labels[1]
+labels = ['kucing', 'anjing']
 
 @app.route('/', methods=['GET'])
 def hello_word():
